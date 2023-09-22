@@ -13,6 +13,7 @@ const UserDetailScreen: FC<Props> = () => {
   const onPress = () => {
     navigation.goBack();
   };
+
   return (
     <View style={styles.container}>
       <Text style={styles.header}>User Detail</Text>
